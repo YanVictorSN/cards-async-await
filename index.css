@@ -11,10 +11,24 @@ body {
     align-items: center;
     flex-direction: column;
 }
+p {
+    font-size: 5vh;
+    font-family: 'Roboto', sans-serif;
+}
 main {
     width: 98vw;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+button {
+    width:8vw;
+    height: 6vh;
+    border-radius: 1vw;
+    border: none;
+    background-color: rgb(126, 126, 133);
+    color: rgb(12, 11, 11);
+    font-size: 2.4vh;
+    font-family: 'Roboto', sans-serif;
 }
